@@ -1,6 +1,7 @@
 import { ThemeToggle } from "./ThemeToggle";
+import { Cart } from "./Cart";
 import { Button } from "@/components/ui/button";
-import { Home, ShoppingCart } from "lucide-react";
+import { Home } from "lucide-react";
 import { useNavigate, useLocation } from "react-router-dom";
 
 export function Header() {
@@ -32,9 +33,7 @@ export function Header() {
         </div>
         
         <div className="flex items-center space-x-2">
-          <Button variant="ghost" size="icon">
-            <ShoppingCart className="h-5 w-5" />
-          </Button>
+          <Cart />
           <ThemeToggle />
         </div>
       </div>

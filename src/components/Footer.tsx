@@ -33,7 +33,7 @@ export function Footer() {
         
         <div className="border-t mt-8 pt-6 text-center text-muted-foreground">
           <p>
-            Desarrollado por: <span className="font-semibold text-primary">Santiago Rodríguez</span>
+            Desarrollado por: <span className="font-semibold text-primary">Santiago Ceballos</span>
             <br />
             Estudiante de Ingeniería de Software - 1er Semestre
             <br />
